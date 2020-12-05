@@ -24,7 +24,7 @@ function GeneralNavbar() {
 
                     </Nav.Link>
 
-                    <Nav.Link as = {Link} to = "/SignUp">
+                    <Nav.Link as = {Link} to = "/SignUp/PatientSignUpForm01">
 
                         <Button variant = "success">Get Started</Button>
                     
