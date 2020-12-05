@@ -10,9 +10,6 @@ import { store, persistor } from './store';
 import PatientSignUpForm1 from './components/Forms/SignupForms/PatientSignUpForms/PatientSignUpForm1';
 import PatientSignUpForm2 from './components/Forms/SignupForms/PatientSignUpForms/PatientSignUpForm2';
 
-import Content from './components/Dashboards/DoctorDashboard/DashboardLayout/Content';
-import Testing from './components/Forms/PatientDataForms/PersonalDetailsForm/Testing';
-
 function App() {
   return (
 
@@ -24,13 +21,9 @@ function App() {
 
     <div className="App">
 
-    <Route exact path = "/" component = {Testing} />
-
-    <Route exact path = "/SignUp/PatientSignUpForm01" component = {PatientSignUpForm1} />
+    <Route exact path = "/" component = {PatientSignUpForm1} />
 
     <Route exact path = "/SignUp/PatientSignUpForm02" component = {PatientSignUpForm2} />
-
-    <Route exact path = "/DoctorDashboard" component = {Content} />
    
     </div>
 
