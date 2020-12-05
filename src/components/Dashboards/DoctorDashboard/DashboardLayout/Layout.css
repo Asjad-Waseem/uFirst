@@ -1,0 +1,217 @@
+.form-inline {
+
+    flex-flow: nowrap !important;
+
+}
+
+@media only screen and (min-width: 575px) {
+
+    .sidebar {
+    
+        z-index: 1;
+        /* position: absolute; */
+        position: fixed;
+        width: 70px;
+        height: 90vh;
+        /* margin-top: 0; */
+        margin-top: 10vh; 
+        background-color: #212735;
+        text-align: center;
+
+
+        /* overflow-y: hidden; */
+        /* height: 90vh; */
+    
+    }
+
+    .open-sidebar {
+
+        z-index: 1;
+        /* position: absolute; */
+        position: fixed;
+        width: 250px;
+        height: 90vh;
+        margin-top: 10vh;
+        /* margin-top: 0vh;  */
+        background-color: #212735;
+        text-align: center;
+
+    }
+    
+    .sidebar-nav {
+    
+        padding: 0;
+        list-style: none;
+    
+    }
+    
+    .sidebar-nav li {
+    
+        text-indent: 20px;
+        line-height: 40px;
+        display: flex;
+        margin-left: 2.5px;
+    
+    }
+    
+    .siderbar-nav li a {
+    
+        display: block;
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    .sidebar-nav li a:hover {
+    
+        background: none;
+    
+    }
+    
+}
+    
+@media only screen and (max-width: 574px) {
+    
+    .sidebar {
+        
+            z-index: 1;
+            /* position: absolute; */
+            position: fixed;
+            width: 70px;
+            height: 92vh;
+            /* margin-top: 0vh;  */
+            margin-top: 10vh;
+            background-color: #212735;
+    
+    }
+
+    .open-sidebar {
+
+        z-index: 1;
+        /* position: absolute; */
+        position: fixed;
+        width: 250px;
+        height: 90vh;
+        /* margin-top: 0vh;  */
+        margin-top: 10vh;
+        background-color: #212735;
+        text-align: center;
+
+    }
+    
+    .sidebar-nav {
+    
+        padding: 0;
+        list-style: none;
+    
+    }
+    
+    .sidebar-nav li {
+    
+        text-indent: 20px;
+        line-height: 40px;
+        display: flex;
+        margin-left: 2.5px;
+    
+    }
+    
+    .siderbar-nav li a {
+    
+        display: block;
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    .sidebar-nav li a:hover {
+    
+        background-color: blue;
+    
+    }
+        
+}
+
+     .sider-contents {
+
+    display: inline;
+    text-decoration: none;
+
+    }
+
+@media only screen and (min-width: 575px) {
+    
+    .nav__color {
+    
+        background-color: #212735;
+        height: 10vh;
+    
+    }
+    
+}
+    
+@media only screen and (max-width: 574px) {
+    
+    .nav__color {
+        
+        background-color: #212735;
+        max-height: 50vh;
+        
+    }
+        
+}
+
+@media only screen and (max-width: 574px) {
+    
+    .page-content {
+    
+        width: 100%;
+        position: relative;
+        padding: 15px;
+        padding-left: 70px;
+        top: 15vh;
+    
+    }
+
+    .page-content-open {
+
+        width: 100%;
+        position: relative;
+        padding: 15px;
+        padding-left: 250px;
+        top: 15vh;
+        
+    }
+
+}
+
+@media only screen and (min-width: 574px) {
+    
+    .page-content {
+    
+        width: 100%;
+        position: relative;
+        padding: 15px;
+        padding-left: 70px;
+        top: 10vh;
+    
+    }
+
+    .page-content-open {
+
+        width: 100%;
+        position: relative;
+        padding: 15px;
+        padding-left: 250px;
+        top: 10vh;
+        
+    }
+
+}
+
+/* This is the css class as a sample if you want to remove box-shadow or outline from a button element on focus */
+
+/* .testing:focus {
+    box-shadow: none !important;
+    outline: 0 !important;
+} */
+

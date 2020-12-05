@@ -1,0 +1,58 @@
+.form__heading {
+
+    color: #0060BF;
+
+}
+
+.form-control.form-control-md {
+
+    background-color: #FBFBFB;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 1px blue 1px rgba(225,225,225 / 50%);
+    border-radius: 3px;
+
+}
+
+.btn.btn-block {
+
+    background-color: #0060bf;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.form__division {
+
+    border-top: 5px solid #e7e7e7;
+
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.form__division {
+
+    border-left: 5px solid #e7e7e7;
+
+}
+
+}
+
+.generic__border {
+
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 1px blue 1px rgba(225,225,225 / 50%);
+    border-radius: 3px;
+
+}
+
+.generic__header {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
